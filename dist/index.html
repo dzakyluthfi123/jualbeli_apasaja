@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet">
+  <link href="src/style.css" rel="stylesheet">
   <!-- Swiper CSS -->
 <link
 rel="stylesheet"
@@ -27,7 +27,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 
       <!-- Desktop Nav -->
       <nav class="hidden md:flex space-x-6 text-gray-700 font-medium">
-        <a href="#" class="relative group">
+        <a href="#beranda" class="relative group">
           <span class="hover:text-blue-500 transition">Beranda</span>
           <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
         </a>
@@ -64,7 +64,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 pt-2 bg-white border-t shadow-sm transition-all duration-300">
     <nav class="flex flex-col space-y-2 text-gray-700 font-medium">
-      <a href="#" class="hover:text-blue-500 transition">Beranda</a>
+      <a href="#beranda" class="hover:text-blue-500 transition">Beranda</a>
       <a href="#" class="hover:text-blue-500 transition">Produk</a>
       <a href="#kategori" class="hover:text-blue-500 transition">Kategori</a>
       <a href="#" class="hover:text-blue-500 transition">Kontak</a>
@@ -78,7 +78,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 
 
    <!-- isi -->
-   <section class="bg-gray-50 py-16">
+   <section id="beranda" class="bg-gray-50 py-16">
     <div class="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-10">
       <!-- Text Content -->
       <div class="w-full md:w-1/2">
