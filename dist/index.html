@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Home</title>
   <!-- Swiper CSS -->
 <link
 rel="stylesheet"
@@ -26,8 +28,8 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
       </div>
 
       <!-- Desktop Nav -->
-      <nav class="hidden md:flex space-x-6 text-gray-700 font-medium">
-        <a href="#beranda" class="relative group">
+      <nav class="hidden md:flex space-x-5 text-gray-700 font-medium">
+        <a href="#" class="relative group">
           <span class="hover:text-blue-500 transition">Beranda</span>
           <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
         </a>
@@ -39,16 +41,16 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
           <span class="hover:text-blue-500 transition">Kategori</span>
           <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
         </a>
-        <a href="#" class="relative group">
-          <span class="hover:text-blue-500 transition">Kontak</span>
+        <a href="#hubungikami" class="relative group">
+          <span class="hover:text-blue-500 transition">Hubungi Kami</span>
           <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
         </a>
       </nav>
 
       <!-- Desktop Buttons -->
       <div class="hidden md:flex space-x-3 items-center">
-        <a href="#" class="text-sm font-semibold text-gray-600 bg-gray-100 px-4 py-2 rounded-lg hover:bg-gray-200 text-center">Masuk</a>
-        <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition">Daftar</a>
+        <a href="masuk.html" class="text-sm font-semibold text-gray-600 bg-gray-100 px-4 py-2 rounded-lg hover:bg-gray-200 text-center">Masuk</a>
+        <a href="daftar.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition">Daftar</a>
       </div>
 
       <!-- Mobile Button -->
@@ -67,11 +69,11 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
       <a href="#beranda" class="hover:text-blue-500 transition">Beranda</a>
       <a href="#" class="hover:text-blue-500 transition">Produk</a>
       <a href="#kategori" class="hover:text-blue-500 transition">Kategori</a>
-      <a href="#" class="hover:text-blue-500 transition">Kontak</a>
+      <a href="#hubungikami" class="hover:text-blue-500 transition">Hubungi Kami</a>
     </nav>
     <div class="mt-4 flex flex-col space-y-2">
-      <a href="#" class="text-sm font-semibold text-gray-600 bg-gray-100 px-4 py-2 rounded-lg hover:bg-gray-200 text-center">Masuk</a>
-      <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 text-center">Daftar</a>
+      <a href="masuk.html" class="text-sm font-semibold text-gray-600 bg-gray-100 px-4 py-2 rounded-lg hover:bg-gray-200 text-center">Masuk</a>
+      <a href="daftar.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 text-center">Daftar</a>
     </div>
   </div>
 </header>
@@ -133,10 +135,8 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     <div class="max-w-7xl mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold text-center text-gray-800 mb-10 relative inline-block">
         Jelajahi Kategori Belanja
-        <span class="absolute left-1/2 bottom-[-12px] w-12 h-1 bg-blue-500 -translate-x-1/2 rounded"></span>
       </h2>
-      
-  
+      <br>
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
         <!-- Kategori Card -->
         <div class="bg-gray-50 p-4 rounded-xl shadow hover:shadow-md transition group text-center cursor-pointer">
@@ -171,8 +171,86 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
       </div>
     </div>
   </section>
-  
    <!-- macam kategori end -->
+
+  <!-- Kontak Section -->
+<section id="hubungikami" class="bg-gradient-to-br from-white via-blue-50 to-blue-100 py-16 px-4">
+  <div class="max-w-6xl mx-auto">
+    <!-- Header -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-black-800">Hubungi Kami</h2>
+      <p class="text-gray-600 mt-2 text-sm md:text-base">Kami siap membantu menjawab pertanyaan dan kebutuhan Anda</p>
+    </div>
+
+    <!-- Konten -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+      
+     
+
+      <!-- Google Maps -->
+      <div class="rounded-2xl overflow-hidden shadow-lg">
+        <iframe
+          class="w-full h-[400px]"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126917.72455354576!2d106.68942928201436!3d-6.229386697335651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1573c9bb7e5%3A0x7a0d35e5d87b0e9e!2sJakarta!5e0!3m2!1sid!2sid!4v1716367127000!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <!-- maps end -->
+
+       <!-- Form Kontak -->
+<div class="bg-white p-8 rounded-2xl shadow-lg w-full">
+  <h3 class="text-lg font-semibold text-gray-800 mb-4 relative text-center">
+    Kirim Pesan
+    <!-- <span class="absolute left-1/2 bottom-[-12px] w-20 h-1 bg-blue-500 -translate-x-1/2 rounded"></span> -->
+  </h3>
+  <form class="space-y-5 text-sm">
+    <div>
+      <label class="block text-gray-700 mb-1">Nama Lengkap</label>
+      <input type="text" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:outline-none" placeholder="Nama Anda">
+    </div>
+    <div>
+      <label class="block text-gray-700 mb-1">Email</label>
+      <input type="email" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:outline-none" placeholder="email@example.com">
+    </div>
+    <div>
+      <label class="block text-gray-700 mb-1">Telepon</label>
+      <input type="tel" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:outline-none" placeholder="08xxxxxxxxxx">
+    </div>
+    <div>
+      <label class="block text-gray-700 mb-1">Alamat</label>
+      <input type="text" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:outline-none" placeholder="Alamat lengkap">
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div>
+        <label class="block text-gray-700 mb-1">Kota</label>
+        <input type="text" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:outline-none" placeholder="Kota">
+      </div>
+      <div>
+        <label class="block text-gray-700 mb-1">Kode Pos</label>
+        <input type="text" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:outline-none" placeholder="Kode Pos">
+      </div>
+      <div>
+        <label class="block text-gray-700 mb-1">Dari Perusahaan</label>
+        <input type="text" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:outline-none" placeholder="(Opsional)">
+      </div>
+    </div>
+    <div>
+      <label class="block text-gray-700 mb-1">Pesan</label>
+      <textarea rows="4" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 focus:outline-none" placeholder="Tulis pesan Anda di sini..."></textarea>
+    </div>
+    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition">Kirim</button>
+  </form>
+</div>
+<!-- form kontak end -->
+
+
+    </div>
+  </div>
+</section>
+
+    
     <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
